@@ -214,7 +214,7 @@ include 'inc/header.php'; ?>
     }
     
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2XJPyJ97dtfBylWcnBGkfF-hjv8AjbU&libraries=places&callback=initMap" async defer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_KEY_HERE&libraries=places&callback=initMap" async defer>
     </script>
  </div>
     
