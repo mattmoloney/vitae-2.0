@@ -1,0 +1,438 @@
+html,body
+{
+	transition: all 1s ease;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #e0e0e0;
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+    margin-left:15px;
+}
+
+input, button, submit
+{
+  border:none;
+  background  : none;
+}
+
+select {
+    display: block!important;
+    margin: 5px 0px;
+}
+
+h1{
+    
+    color: #2196F3;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    
+    color: #2196F3;
+    font-size: 22px;
+    text-align: center;
+}
+
+h3 {
+    
+    color: #2196F3;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    
+    color: #000;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+h5{
+    
+    color: #2196F3;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+p{
+    
+    padding-left: 5px;
+}
+
+.btn, .btn-large {
+    background-color: #2196F3!important;
+}
+
+.nostyle {
+	color: inherit;
+	text-decoration: none;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    background-color: #DDDDDD;
+    margin : 15px 0px;
+}
+
+/**homepage**/
+
+.menu-row {
+    height: 140px;
+}
+
+.container-index {
+    margin-top: 50px;
+}
+
+.blue-circle-left {
+    border-radius: 50%;
+	width: 75px;
+	height: 75px;
+    float: left;
+    background-color: #2196F3;
+}
+
+.blue-circle-right {
+    border-radius: 50%;
+	width: 75px;
+	height: 75px;
+    float: right;
+    background-color: #2196F3;
+}
+
+.icon-circle {
+    color:white;
+    margin-top: 0.4em;
+    margin-left:0.45em;
+    margin-right:auto;
+    font-size: 40px;
+}
+
+.category-name {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 22px;
+    color: #555555;
+    
+}
+
+.menu-subgroup {
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.btn-track-index {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+/**cookbook**/
+
+.menu-btn {
+    width: 150px;
+}
+
+.container-food {
+    
+    margin-top: 50px;
+}
+
+.best_recipies {
+    
+    background-color: #fff;
+    color: #DDD;
+}
+
+
+/******Topbar****/
+
+.headbar-container {
+    width:100%;
+    margin:0;
+    height:56px;
+    z-index:90;
+}
+
+
+.headbar {
+    width:100%;
+    margin:0;
+    height:56px;
+    z-index:90;
+    position: relative
+}
+
+.menu-icon {
+    width:24px;
+    font-size:48px;
+    color:white;
+    margin-left:16px;
+    float: left;
+}
+
+.menu-icon-down {
+    width:24px;
+    font-size:48px;
+    color:white;
+    margin-top: 0.3em;
+    margin-left:16px;
+    float: left;
+}
+
+.headtitle {
+    color:white;
+    font-size: 25px;
+    float: left;
+    margin-left:22px;
+    line-height: 54px;
+    letter-spacing: 1px;
+}
+
+.menu-icon-share {
+    width:24px;
+    height:56px;
+    font-size:48px;
+    color:white;
+    margin-right:16px;
+    float: right;
+}
+
+.menu-icon-profile {
+    width:24px;
+    height:56px;
+    font-size:48px;
+    color:white;
+    margin-right:16px;
+    float: right;
+}
+
+.menu-icon-profile-down {
+    width:24px;
+    height:56px;
+    font-size:48px;
+    color:white;
+    margin-top: 0.3em;
+    margin-right:16px;
+    float: right;
+}
+
+/******Profile page****/
+
+.not-logged-p {
+    margin-top:20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.sub-headbar {
+    width:100%;
+    margin-top:0px;
+    height:42px;
+    z-index:20;
+}
+
+.profile-name {
+    color:white;
+    font-size: 18px;
+    float: left;
+    margin-left:20px;
+    line-height: 42px;
+}
+
+.profile-row h5 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 700;
+    color: #212121;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right:auto;
+	width: 110px;
+	height: 110px;
+    background-color: #2196F3;
+}
+
+.profile-photo img{
+	width: 100px;
+	height: 100px;
+    margin-top:5px;
+}
+
+.profile-infos {
+    text-align: left;
+    margin-top:20px;
+}
+
+
+.card-profile {
+    display:block;
+    width:100%;
+    padding:20px;
+}
+
+.profile-title {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 15px;
+    color: #212121;
+}
+
+.profile-othertitle{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #212121;
+}
+
+.profile-title a {
+    float: right;
+}
+
+.profile-subtitle {
+    margin-bottom: 5px;
+}
+
+.profile-link  {
+    width: 100%;
+}
+
+.records-cont {
+    margin-bottom: 12px;
+    margin-left:7px;
+}
+
+.profile-save {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-entry {
+    margin: 10px 0px;
+}
+
+.select-img {
+    margin-top: 20px;
+    text-align:center;
+}
+
+.select-img img {
+    height:80px;
+    width:80px;
+}
+
+
+
+/******Register page****/
+
+.form-register{
+    
+    width: 90%;
+    margin-left: 1.5em;
+    margin-top: 3em;
+}
+
+/******Login page****/
+
+
+.login-form {
+    margin-top: 20px;
+}
+.register-now-container {
+    margin-top:30px;
+}
+
+/******trackers page****/
+.container-weight {
+}
+
+.current-weight-title {
+    text-align:center;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom:20px;
+}
+
+.actual-weight {
+    color: #2196F3;
+}
+
+.weight-tl {
+    width: 94%;
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom:0px;
+    text-align:center;
+}
+
+.weight-lines {
+    text-align:center;
+}
+
+.weight-line {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.current-sleep-title {
+    font-weight:700;
+    font-size: 22px;
+    margin-bottom:15px;
+}
+
+.current-sleep-subtitle {
+    font-size: 18px;
+    margin-bottom:15px;
+}
+
+
+.sleep-btn{
+    margin-top: 20px;
+}
+
+
+/******sports page****/
+.sport-submit {
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+}
+.input-group {
+    margin: 10px 0px;
+}
+
+.form-sport{
+    
+    width: 90%;
+    margin-left: 1.5em;
+}
+
+.activities-sport {
+    margin-top:20px;
+}
+
+.sport-tl-firstline {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sport-tl-secondline {
+    font-size: 14px;
+}
